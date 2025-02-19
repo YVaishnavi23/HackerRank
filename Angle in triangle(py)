@@ -1,0 +1,8 @@
+import math
+h=eval(input())
+b=eval(input())
+hyp=((h**2)+(b**2))**0.5
+angle=math.asin(h/hyp)
+an_deg=math.degrees(angle)
+an=round(an_deg)
+print(an,end="°")
